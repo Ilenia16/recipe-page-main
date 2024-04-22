@@ -1,0 +1,53 @@
+body {
+    background-color: #f3e5d8;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+div{
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+.main_div{
+    background-color: white;
+    width: 30%;
+    height: 70%;
+}
+
+.omelette_img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-family: "Young Serif", serif;    
+}
+
+.titolo_principale{
+    font-size: 2.5rem;
+    color: #343331;
+}
+
+.titolo_prep{
+    color: hsl(332, 51%, 32%);
+    font-size: 1rem;
+}
+
+.div_prep{
+    background-color: #fff7fc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ul_prep{
+    padding-left: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.ul_prep li::marker{
+    color: hsl(332, 51%, 32%);
+}
