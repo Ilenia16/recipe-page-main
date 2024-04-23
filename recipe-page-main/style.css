@@ -1,46 +1,55 @@
+/* @font-face {
+    font-family: "outfit";
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+} 
+
+@font-face {
+    font-family: "young-serif";
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+} */
+
 body {
     background-color: #f3e5d8;
     font-family: "Outfit", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #6d6a67;
 }
 
-div{
-    border-radius: 1rem;
+.div_grande{
+    border-radius: 20px;
     padding: 2rem;
     margin: auto;
 }
 
 .main_div{
     background-color: white;
-    width: 30%;
+    width: 32%;
     height: 70%;
 }
 
 .omelette_img{
     width: 100%;
     height: auto;
-    border-radius: 1rem;
-}
-
-h1 {
-    font-family: "Young Serif", serif;    
+    border-radius: 0.7rem;
 }
 
 .titolo_principale{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 400;
     color: #343331;
+    font-family: "Young Serif";
 }
 
 .titolo_prep{
     color: hsl(332, 51%, 32%);
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .div_prep{
     background-color: #fff7fc;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .ul_prep{
@@ -50,4 +59,49 @@ h1 {
 
 .ul_prep li::marker{
     color: hsl(332, 51%, 32%);
+    font-weight: 500;
+    font-size: small;
+}
+
+li{
+    padding-left: 1rem;
+}
+
+.titolo_ingr{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.6rem;
+}
+
+.ul_ingredients{
+    padding-left: 1.5rem;
+    line-height: 1.9rem;
+}
+.ul_ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: small;
+}
+
+hr{
+    border: 1px solid #f5f5f5;
+    margin-top: 1.75rem;
+    margin-bottom: 1.6rem;
+}
+
+ol li::marker{
+    font-weight: 900;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.color_table{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
 }
